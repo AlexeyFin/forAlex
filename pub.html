@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar bg-info">
+    <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" href="#">
+            PUB
+        </a>
+
+    </div>
+</nav>
+
+<div class="container">
+    <div class="card mt-5">
+        <div class="card-header">
+            Search for Cocktails
+        </div>
+        <div class="card-body">
+            <form name="searchForm" class="form">
+                <div class="form-group">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">Search:</span>
+                        <input type="text" class="form-control" name="search" placeholder="Cocktail name" aria-label="name" aria-describedby="addon-wrapping">
+                        <button type="submit" class="btn btn-info">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card mt-5">
+        <div class="card-header">
+            Menu
+        </div>
+        <div class="card-body">
+            <div class="row" id="menu-list">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container pub">
+
+</div>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+
+<script src="js/pub/pub.js"></script>
+<script src="js/pub/app.js"></script>
+</body>
+</html>
